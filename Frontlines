@@ -117,7 +117,7 @@ else
             writefile = writefile
             readfile = readfile
 
-            if writeclipboard then writeclipboard("https://discord.gg/VEzDw5kJ") end
+            if writeclipboard then writeclipboard("https://discord.gg/u8uNXMB3cr") end
             repeat task.wait() until game:IsLoaded()
 
             local _startTick = tick()
@@ -255,14 +255,14 @@ else
                 },
                 Discord = {
                   Enabled = false,
-                  Invite = "VEzDw5kJ", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+                  Invite = "u8uNXMB3cr", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
                   RememberJoins = false -- Set this to false to make them join the discord every time they load it up
                },
                 KeySystem = false,
                 KeySettings = {
                     Title = ScriptTitle,
                     Subtitle = "Key System",
-                    Note = "https://discord.gg/VEzDw5kJ",
+                    Note = "https://discord.gg/u8uNXMB3cr",
                     FileName = ".mopshubkey",
                     SaveKey = true,
                     GrabKeyFromSite = false,
@@ -428,7 +428,7 @@ else
                 end)
                 if not success and err then
                     rconsoleerr(string.format("[mopsHub UI Init - Error]: Unexpected error occurred while initalizin the UI."))
-                    rconsoleerr(string.format("Support: https://discord.gg/VEzDw5kJ"))
+                    rconsoleerr(string.format("Support: https://discord.gg/u8uNXMB3cr"))
                     rconsoleerr("Error: ".. err)
                     Window:Destroy()
                 end
