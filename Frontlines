@@ -247,7 +247,7 @@ else
             local Window = Rayfield:CreateWindow({
                 Name = ScriptTitle,
                 LoadingTitle = ScriptTitle,
-                LoadingSubtitle = "CronicHUB",
+                LoadingSubtitle = "ZombieHD",
                 ConfigurationSaving = {
                     Enabled = true,
                     FolderName = "/mopsHub/.config",
